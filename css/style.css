@@ -24,34 +24,21 @@ header{
   align-items: center;
   padding: 80px;
 }
-
-.cosas img{
-  width: 35%;
-  border-radius: 1000px;
-  max-width: 500px;
+.equipo_main .img_equipo {
+  height: 300px;
+  width: 300px;
 }
 
-.cosas p{
-  font-size: 18px;
-  margin-right: 20px;
-}
-
-.cosas h2{
+h1{
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 20px;
+  text-align: center;
 }
 
 .logo{
    cursor: pointer;
    height: 70px;
    width: "auto"; 
-}
-
-h1{
-  font-size: 24px;
-  font-weight: bold;
-  margin-right: 20px;
 }
 
 nav ul {
@@ -73,35 +60,15 @@ nav a:hover {
   color: #6168ec;
 }
 
-main {
-  margin-top: 80px;
-}
-
-
-/* Team*/
-/* Container*/
-/*.container {
-  max-width: 1000px;
-  flex-direction: column;
-}
-
-.container {
-  width: 50%;
-  margin:  auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-*/
-
 h2{
   text-align: center;
   font-weight: bold;
+  font-size: 30px;
+  margin-top: 80px;
 }
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .column {
@@ -109,16 +76,7 @@ h2{
   justify-content: space-evenly;
   padding: 10px;
 }
-.gallery{
-  width: 40%;
-  height: auto;
-  border-radius: 5%;
-}
 
-.card.img {
-  width: 30%;
-  height: auto;
-}
 #sobrenosotros {
   padding: 40px;
   background-color: #ffffff;
