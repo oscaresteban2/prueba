@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+* h2 {
+  text-align: center;
+  font-size: bold;
+  font-size: 40px;
+  margin-top: 80px;
+}
+* p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.equipo_main .img_equipo {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+}
+
+
+.equipo_main .img_equipo {
+  height: 300px;
+  width: 300px;
+}
+
+h1{
+
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logo {
+  cursor: pointer;
+  height: 70px;
+  width: "auto";
+}
+
+
+nav {
+  font-size: 16px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+nav a {
+  color: #333;
+  text-decoration: none;
+}
+nav a:hover {
+  color: #6168ec;
+}
+
+
+h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery .column {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+
+#sobrenosotros {
+  padding: 40px;
+  background-color: #ffffff;
+}
+
+
+#sobrenosotros h2 {
+  font-size: 36px;
+  font-size: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+#sobrenosotros ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#sobrenosotros li {
+  margin: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+#sobrenosotros img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 5%;
+}
+#sobrenosotros h3 {
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+#sobrenosotros p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+form input, form textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+form button[type=submit] {
+  background-color: #333;
+  color: #fafafa;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+footer {
+  background-color: #fafafa;
+  box-shadow: 0 10px 5px rgba(88, 90, 88, 0.05);
+}
+footer .icon {
+  font-size: 26px;
+  color: #333;
+}
+footer .icon:hover {
+  color: #9d9ea0;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.scroll-animation {
+  transition: transform 0.3s;
+}
+
+.scroll-animation:hover {
+  transform: translateY(20px);
+}
+
+/*# sourceMappingURL=styles.css.map */
