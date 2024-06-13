@@ -203,6 +203,7 @@ nav a:hover::after {
   justify-content: space-evenly;
   flex-wrap: wrap;
   border-radius: 3px;
+  margin-bottom: 100px;
 }
 .contenedor-imagenes .imagen {
   width: 32%;
