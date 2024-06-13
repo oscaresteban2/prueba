@@ -479,6 +479,9 @@ h1 {
   align-items: center;
   border: solid var(--white);
 }
+.equipo_main h2 {
+  margin-top: 130px;
+}
 
 form {
   display: flex;

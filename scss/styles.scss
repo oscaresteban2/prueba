@@ -71,12 +71,16 @@ h1 {
     color: var(--white);
   }
 }
-
-.equipo_main .img_equipo {
+.equipo_main{
+ .img_equipo {
   height: 300px;
   width: 300px;
   align-items: center;
   border: solid var(--white);
+  }
+  h2{
+    margin-top: 130px;
+  }
 }
 
 form {
