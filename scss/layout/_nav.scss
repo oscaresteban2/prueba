@@ -1,43 +1,44 @@
 .logo {
-    cursor: pointer;
-    height: 70px;
-    width: "auto";
-  }
-   
-  nav {
-    background: rgb(0,0,0);
-    background: linear-gradient(73deg, rgba(0,0,0,1) 37%, rgba(208,147,15,0.6222864145658263) 100%);
-    box-shadow: 0 10px 30px rgba(230, 185, 64, 0.685);
-    font: $p;
-    ul {
-        display: block;
-      list-style: none;
-    }
-  
-    li {
+  cursor: pointer;
+  height: 90px;
+  width: 100px;
+}
+
+nav {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(73deg, rgba(0, 0, 0, 1) 37%, rgba(208, 147, 15, 0.6222864145658263) 100%);
+  box-shadow: 0 10px 30px rgba(230, 185, 64, 0.685);
+  font: $p;
+
+  ul {
     display: block;
-      padding: 20px;
+    list-style: none;
+  }
+
+  li {
+    display: block;
+    padding: 20px;
+  }
+
+  a {
+    position: relative;
+    padding-bottom: 0.75rem;
+    color: var(--white);
+    text-decoration: none;
+
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 0;
+      left: 0;
+      bottom: 0;
+      background-color: var(--secondary-color);
+      transition: 0.3s;
     }
-  
-    a {
-      position: relative;
-      padding-bottom: 0.75rem;
-      color: var(--white);
-      text-decoration: none;
-    
-      &::after {
-        content: "";
-        position: absolute;
-        height: 2px;
-        width: 0;
-        left: 0;
-        bottom: 0;
-        background-color: var(--secondary-color);
-        transition: 0.3s;
-      }
-    
-      &:hover::after {
-        width: 50%;
-      }
+
+    &:hover::after {
+      width: 50%;
     }
-    }
+  }
+}

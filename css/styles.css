@@ -158,8 +158,8 @@ footer {
 
 .logo {
   cursor: pointer;
-  height: 70px;
-  width: "auto";
+  height: 90px;
+  width: 100px;
 }
 
 nav {
@@ -492,7 +492,8 @@ form label {
   margin-bottom: 10px;
   color: var(--white);
 }
-form input, form textarea {
+form input,
+form textarea {
   padding: 10px;
   font-size: 16px;
   margin-bottom: 20px;
