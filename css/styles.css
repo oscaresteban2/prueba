@@ -293,7 +293,8 @@ nav a:hover::after {
   transition: 0.3s;
 }
 .btn:hover {
-  background-color: var(--secondary-color-dark);
+  background-color: var(--secondary-color);
+  color: var(--max-width);
 }
 
 .bg__blur {
@@ -324,7 +325,7 @@ nav a:hover::after {
 }
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 6rem;
   color: var(--white);
@@ -346,7 +347,7 @@ nav a:hover::after {
 }
 .header__content h1 {
   margin-bottom: 1rem;
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 6rem;
   color: var(--white);
@@ -459,7 +460,7 @@ h1 {
 }
 #sobrenosotros img {
   width: 100%;
-  height: 500px;
+  height: 400px;
   margin-bottom: 20px;
   border-radius: 5%;
 }
